@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+
+    <student>
+        <name>Arpit Sirohi</name>
+        <course>BTech-CSE</course>
+        <semester>2</semester>
+        <marks>90</marks>
+    </student>
+
+    <student>
+        <name>Priya Singh</name>
+        <course>BTech-CSE</course>
+        <semester>2</semester>
+        <marks>88</marks>
+    </student>
+
+    <student>
+        <name>Aman Sharma</name>
+        <course>BTech-CSE</course>
+        <semester>2</semester>
+        <marks>82</marks>
+    </student>
+
+    <student>
+        <name>Neha Verma</name>
+        <course>BTech-CSE</course>
+        <semester>2</semester>
+        <marks>91</marks>
+    </student>
+
+    <student>
+        <name>Rohit Kumar</name>
+        <course>BTech-CSE</course>
+        <semester>2</semester>
+        <marks>76</marks>
+    </student>
+
+    <student>
+        <name>Sneha Patel</name>
+        <course>BTech-CSE</course>
+        <semester>2</semester>
+        <marks>85</marks>
+    </student>
+
+</students>

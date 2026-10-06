@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1 id="heading">Student Dashboard</h1>
+
+<div class="button-group">
+
+    <button onclick="changeHeading()">Change Heading</button>
+
+    <button onclick="toggleTable()">Show/Hide Table</button>
+
+    <button onclick="toggleMode()">Light/Dark Mode</button>
+
+</div>
+
+
+
+<!-- EXISTING DASHBOARD -->
+<div class="dashboard">
+
+    <div class="card">
+        <h2>🏅Top Performer</h2>
+        <div id="topStudent"></div>
+    </div>
+
+    <div class="card">
+        <h2>Student Records</h2>
+
+        <table id="studentTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Course</th>
+                    <th>Semester</th>
+                    <th>Marks</th>
+                </tr>
+            </thead>
+
+            <tbody id="tableBody"></tbody>
+        </table>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+<script>
+loadStudents();
+</script>
+
+</body>
+</html>
